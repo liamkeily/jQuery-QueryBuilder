@@ -31,11 +31,7 @@ QueryBuilder.define('bt-checkbox', function(options) {
                 var color = filter.colors[key] || filter.colors._def_ || options.color;
                 var id = name + '_' + (i++);
 
-                h.value+= '\
-<div' + style + ' class="' + filter.input + ' ' + filter.input + '-' + color + '"> \
-  <input type="' + filter.input + '" name="' + name + '" id="' + id + '" value="' + key + '"> \
-  <label for="' + id + '">' + val + '</label> \
-</div>';
+                h.value += `<div ${style} class="${filter.input} ${filter.input}-${color} form-check form-check-inline"> <input class="form-check-input" type="${filter.input}" name="${name}" id="${id}" value="${key}"> <label class="form-check-label" for="${id}">${val}</label></div>`;
             });
         }
     });

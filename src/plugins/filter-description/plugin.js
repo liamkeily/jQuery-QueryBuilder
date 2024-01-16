@@ -43,30 +43,28 @@ QueryBuilder.define('filter-description', function(options) {
             if (!description) {
                 $b.hide();
 
-                if ($b.data('bs.popover')) {
+                if ($b.data('bs-popover')) {
                     $b.popover('hide');
                 }
             }
             else {
                 if ($b.length === 0) {
-                    $b = $($.parseHTML('<button type="button" class="btn btn-xs btn-info filter-description" data-toggle="popover"><i class="' + options.icon + '"></i></button>'));
+                    $b = $($.parseHTML('<button type="button" class="btn btn-xs btn-info filter-description" data-bs-toggle="popover"><i class="' + options.icon + '"></i></button>'));
                     $b.prependTo(rule.$el.find(QueryBuilder.selectors.rule_actions));
-
-                    $b.popover({
+                    const popover = new bootstrap.Popover($b.get(0), {
                         placement: 'left',
                         container: 'body',
                         html: true
-                    });
-
+                    })
                     $b.on('mouseout', function() {
-                        $b.popover('hide');
+                        popover('hide');
                     });
                 }
                 else {
                     $b.css('display', '');
                 }
 
-                $b.data('bs.popover').options.content = description;
+                $b.data('bs-popover').options.content = description;
 
                 if ($b.attr('aria-describedby')) {
                     $b.popover('show');
@@ -89,7 +87,7 @@ QueryBuilder.define('filter-description', function(options) {
             }
             else {
                 if ($b.length === 0) {
-                    $b = $($.parseHTML('<button type="button" class="btn btn-xs btn-info filter-description" data-toggle="bootbox"><i class="' + options.icon + '"></i></button>'));
+                    $b = $($.parseHTML('<button type="button" class="btn btn-xs btn-info filter-description" data-bs-toggle="bootbox"><i class="' + options.icon + '"></i></button>'));
                     $b.prependTo(rule.$el.find(QueryBuilder.selectors.rule_actions));
 
                     $b.on('click', function() {
