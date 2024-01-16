@@ -187,10 +187,10 @@ QueryBuilder.DEFAULTS = {
     ],
 
     icons: {
-        add_group:    'bi-plus-circle-fill',
-        add_rule:     'bi-plus',
-        remove_group: 'bi-x',
-        remove_rule:  'bi-x',
-        error:        'bi-exclamation-triangle'
+        add_group:    'bi bi-plus-circle-fill',
+        add_rule:     'bi bi-plus-lg',
+        remove_group: 'bi bi-x-lg',
+        remove_rule:  'bi bi-x-lg',
+        error:        'bi bi-exclamation-triangle'
     }
 };
