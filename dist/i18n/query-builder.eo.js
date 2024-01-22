@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 3.0.3
+ * jQuery QueryBuilder 3.0.0
  * Locale: Esperanto (eo)
  * Author: Robin van der Vliet, https://robinvandervliet.com/
  * Licensed under MIT (https://opensource.org/licenses/MIT)

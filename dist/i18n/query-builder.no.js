@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 3.0.3
+ * jQuery QueryBuilder 3.0.0
  * Locale: Norwegian (no)
  * Author: Jna Borup Coyle, github@coyle.dk
  * Licensed under MIT (https://opensource.org/licenses/MIT)

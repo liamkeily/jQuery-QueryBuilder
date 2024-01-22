@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 3.0.3
+ * jQuery QueryBuilder 3.0.0
  * Locale: German (de)
  * Author: "raimu"
  * Licensed under MIT (https://opensource.org/licenses/MIT)
