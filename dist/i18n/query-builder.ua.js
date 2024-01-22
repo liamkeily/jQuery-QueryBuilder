@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 3.0.2
+ * jQuery QueryBuilder 3.0.3
  * Locale: Ukrainian (ua)
  * Author: Megaplan, mborisv <bm@megaplan.ru>
  * Licensed under MIT (https://opensource.org/licenses/MIT)

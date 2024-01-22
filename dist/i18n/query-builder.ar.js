@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 3.0.2
+ * jQuery QueryBuilder 3.0.3
  * Locale: Arabic (ar)
  * Author: Mohamed YOUNES, https://github.com/MedYOUNES
  * Licensed under MIT (https://opensource.org/licenses/MIT)

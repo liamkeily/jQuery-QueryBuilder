@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 3.0.2
+ * jQuery QueryBuilder 3.0.3
  * Copyright 2014-2024 Damien "Mistic" Sorel (http://www.strangeplanet.fr)
  * Licensed under MIT (https://opensource.org/licenses/MIT)
  */
@@ -2757,7 +2757,7 @@ ${operators.length === 1 ? `
 ${translate("operators", operators[0].type)}
 </span>
 ` : ''}
-<select class="form-control ${operators.length === 1 ? 'hide' : ''}" name="${rule.id}_operator">
+<select class="form-control ${operators.length === 1 ? 'd-none' : ''}" name="${rule.id}_operator">
   ${operators.map(operator => `
     ${optgroup !== operator.optgroup ? `
       ${optgroup !== null ? `</optgroup>` : ''}
@@ -6148,7 +6148,7 @@ QueryBuilder.extend(/** @lends module:plugins.UniqueFilter.prototype */ {
 
 
 /*!
- * jQuery QueryBuilder 3.0.2
+ * jQuery QueryBuilder 3.0.3
  * Locale: English (en)
  * Author: Damien "Mistic" Sorel, http://www.strangeplanet.fr
  * Licensed under MIT (https://opensource.org/licenses/MIT)
