@@ -133,7 +133,7 @@
 
 
 /*!
- * jQuery QueryBuilder 3.0.0
+ * jQuery QueryBuilder 3.0.2
  * Copyright 2014-2024 Damien "Mistic" Sorel (http://www.strangeplanet.fr)
  * Licensed under MIT (https://opensource.org/licenses/MIT)
  */
@@ -287,7 +287,7 @@ var QueryBuilder = function($el, options) {
     this.status.id = this.$el.attr('id');
 
     // INIT
-    this.$el.addClass('query-builder form-inline');
+    this.$el.addClass('query-builder');
 
     this.filters = this.checkFilters(this.filters);
     this.operators = this.checkOperators(this.operators);
@@ -6282,7 +6282,7 @@ QueryBuilder.extend(/** @lends module:plugins.UniqueFilter.prototype */ {
 
 
 /*!
- * jQuery QueryBuilder 3.0.0
+ * jQuery QueryBuilder 3.0.2
  * Locale: English (en)
  * Author: Damien "Mistic" Sorel, http://www.strangeplanet.fr
  * Licensed under MIT (https://opensource.org/licenses/MIT)

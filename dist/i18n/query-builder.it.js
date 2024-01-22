@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 3.0.0
+ * jQuery QueryBuilder 3.0.2
  * Locale: Italian (it)
  * Author: davegraziosi, Giuseppe Lodi Rizzini
  * Licensed under MIT (https://opensource.org/licenses/MIT)

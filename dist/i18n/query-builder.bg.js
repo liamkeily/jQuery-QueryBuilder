@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 3.0.0
+ * jQuery QueryBuilder 3.0.2
  * Locale: Bulgarian (bg)
  * Author: Valentin Hristov
  * Licensed under MIT (https://opensource.org/licenses/MIT)
